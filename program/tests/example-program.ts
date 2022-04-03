@@ -1,6 +1,6 @@
 import {expect} from "chai";
 
-describe("that something", () => {
+describe("example-program", () => {
 
     it("this does not equal that", () => {
 

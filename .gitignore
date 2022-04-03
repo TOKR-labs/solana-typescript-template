@@ -1,5 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+_
+
 # dependencies
 */node_modules
 /.pnp
@@ -26,3 +28,4 @@ yarn-error.log*
 program/.anchor
 program/target
 **/*.rs.bk
+*/owner.json
