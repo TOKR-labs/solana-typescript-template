@@ -1,0 +1,15 @@
+[features]
+seeds = false
+
+[programs.localnet]
+counter = "3LnKa3kmYFYnSd69vM7V212QmbczyoP46vK2uydgjNcE"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/ericmcgary/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
